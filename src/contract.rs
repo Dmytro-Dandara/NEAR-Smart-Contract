@@ -1,6 +1,3 @@
-command = "$1"
-near "$command" "$(<./neardev/dev-account)" "$@"
-
 use near_sdk::{
     borsh::{self, BorshDeserialize, BorshSerialize},
     env, near_bindgen,
